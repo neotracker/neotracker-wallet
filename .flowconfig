@@ -1,0 +1,32 @@
+[version]
+0.52.0
+
+[ignore]
+; .*/node_modules/jss/.*
+; .*/node_modules/jss-props-sort/.*
+; .*/node_modules/jss-theme-reactor/.*
+; .*/node_modules/jss-vendor-prefixer/.*
+; .*/node_modules/jss-nested/.*
+; .*/node_modules/jss-global/.*
+; .*/node_modules/jss-preset-default/.*
+; .*/node_modules/jss-extend/.*
+; .*/node_modules/jss-expand/.*
+; .*/node_modules/jss-default-unit/.*
+; .*/node_modules/jss-compose/.*
+; .*/node_modules/jss-camel-case/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+.*/node_modules/config-chain/.*
+
+[include]
+
+[libs]
+decls/
+
+[options]
+module.name_mapper='^~/\(.*\)$' -> '<PROJECT_ROOT>/\1'
+module.use_strict=true
+
+esproposal.decorators=ignore
+esproposal.export_star_as=enable
+
+unsafe.enable_getters_and_setters=true

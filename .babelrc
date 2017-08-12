@@ -1,0 +1,31 @@
+{
+  "presets": [
+    "react",
+    "flow",
+    ["env", {
+      "targets": { "node": true },
+      "exclude": [
+        "transform-es2015-classes",
+        "transform-async-to-generator",
+        "transform-regenerator"
+      ]
+    }]
+  ],
+  "plugins": [
+    "babel-plugin-root-import",
+    "babel-plugin-idx",
+    "relay",
+    "transform-runtime",
+    "transform-class-properties",
+    "transform-export-extensions",
+    "transform-object-rest-spread"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "babel-plugin-transform-react-constant-elements",
+        "transform-react-inline-elements"
+      ]
+    }
+  }
+}

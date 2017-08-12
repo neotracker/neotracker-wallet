@@ -1,3 +1,9 @@
 # neotracker-wallet
 
-We are currently working through some bugs with running the wallet entirely from a local file. We expect to have the full source code available with a working version by end of day Saturday August 12th.
+https://neotracker.io/wallet
+
+See the release pages for a version of the wallet that you can run entirely locally: https://github.com/neotracker/neotracker-wallet/releases
+
+Read more about the wallet here: https://neotracker.io/wallet/faq
+
+
